@@ -1,0 +1,19 @@
+/* src/component/Post.css */
+
+.post {
+    background-color: #336699; /* Closer match to the required blue color */
+    color: white; /* White text color */
+    border: 1px solid #336699;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    cursor: pointer;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .post p, .post h2 {
+    font-size: 1.2em; /* Make font size the same for all text */
+    margin: 5px 0;
+    font-weight: normal; /* Ensure all text is not bold */
+  }
+  

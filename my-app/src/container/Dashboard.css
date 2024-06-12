@@ -1,0 +1,94 @@
+/* src/container/Dashboard.css */
+
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+.dashboard {
+  padding: 20px;
+  max-width: 800px; /* Control the maximum width of the content */
+  width: 100%; /* Ensure the dashboard takes full width within the max-width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  /* border: 1px solid #ccc; Remove border from dashboard */
+}
+
+.posts-container {
+  display: flex;
+  gap: 10px;
+}
+
+.post-preview {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.change-and-details {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align items to the left */
+  margin-top: 20px;
+  width: 100%; /* Take full width */
+}
+
+.change-name-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align items to the left */
+  margin-bottom: 20px; /* Add space between input/button and post details */
+}
+
+.change-name-container input {
+  margin-bottom: 5px; /* Add space between input and button */
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.change-name-container .change-name {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0; /* Match the background color */
+  cursor: pointer;
+}
+
+.post-details {
+  border: 1px solid #336699; /* Add border color */
+  padding: 20px; /* Increase padding for better spacing */
+  width: 100%; /* Adjust width to fit within container */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.post-details h2 {
+  font-size: 24px;
+  margin-bottom: 5px; /* Adjust margin for better spacing */
+  text-decoration: underline; /* Add underline for the title */
+  text-align: center; /* Center-align title */
+}
+
+.post-details p {
+  margin: 5px 0;
+  text-align: center; /* Center-align paragraphs by default */
+}
+
+.post-details p.author {
+  margin-top: 10px; /* Increase space above the author */
+}
+
+.post-details p.content {
+  margin-top: 20px; /* Increase space above the content */
+  text-align: left; /* Align content text to the left */
+}
+
+.edit, .delete {
+  margin: 10px 5px;
+  color: red;
+  text-decoration: underline; /* Add underline to edit and delete */
+  border: none;
+  background: none;
+  cursor: pointer;
+}

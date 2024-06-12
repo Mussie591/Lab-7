@@ -1,0 +1,38 @@
+/* src/component/PostDetails.css */
+
+.post-details {
+  border: 1px solid #336699; /* Add border color */
+  padding: 20px; /* Increase padding for better spacing */
+  width: 100%; /* Adjust width to fit within container */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.post-details h2 {
+  font-size: 24px;
+  margin-bottom: 5px; /* Adjust margin for better spacing */
+  text-decoration: underline; /* Add underline for the title */
+  text-align: center; /* Center-align title */
+}
+
+.post-details p {
+  margin: 5px 0;
+  text-align: center; /* Center-align paragraphs by default */
+}
+
+.post-details p.author {
+  margin-top: 10px; /* Increase space above the author */
+}
+
+.post-details p.content {
+  margin-top: 20px; /* Increase space above the content */
+  text-align: left; /* Align content text to the left */
+}
+
+.edit, .delete {
+  margin: 10px 5px;
+  color: red;
+  text-decoration: underline; /* Add underline to edit and delete */
+  border: none;
+  background: none;
+  cursor: pointer;
+}

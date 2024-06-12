@@ -1,0 +1,7 @@
+/* src/component/Posts.css */
+
+.posts {
+    display: flex;
+    gap: 10px;
+  }
+  
